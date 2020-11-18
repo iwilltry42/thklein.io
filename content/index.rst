@@ -7,9 +7,8 @@ css_files:
   - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
 ---
 
-thklein.io
-===========
-
 .. raw:: html
 
   <img src="/static/img/logo_large.svg">
+
+This site is under construction!
