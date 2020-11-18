@@ -9,3 +9,7 @@ css_files:
 
 thklein.io
 ===========
+
+.. raw:: html
+
+  <img src="/static/img/logo_large.svg">
