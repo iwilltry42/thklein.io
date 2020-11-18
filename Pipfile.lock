@@ -1,0 +1,25 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "a75b1ca4351f82863907248edaf8a907bb329d8b20453e0d9633714bbab2f254"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.7"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "spekulatio": {
+            "git": "git://github.com/pacha/spekulatio",
+            "ref": "3dce5e762a5f90f138c7cc7f9e2b9c39885e18b7"
+        }
+    },
+    "develop": {}
+}

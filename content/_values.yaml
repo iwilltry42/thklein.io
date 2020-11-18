@@ -1,0 +1,28 @@
+# Data/Content
+author: Thorsten Klein (@iwilltry42)
+title: "@thklein"
+copyright: |-
+  Copyright 2020 Thorsten Klein <br>
+  <i class="fa fa-twitter"></i> <a href="https://twitter.com/iwilltry42">@iwilltry42</a> | 
+  <i class="fa fa-github"></i> <a href="https://github.com/iwilltry42">@iwilltry42</a> | 
+  <i class="fa fa-envelope"></i> <a href="mailto:iwilltry42@gmail.com">iwilltry42@gmail.com</a><br>
+  Powered by <a href="https://github.com/pacha/spekulatio">spekulatio</a> & <a href="https://www.netlify.com/">netlify</a>
+favicon: |-
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/img/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/img/favicon/favicon-16x16.png">
+
+
+# Structure
+main_menu:
+  - text: <i class="fa fa-home"></i> Home
+    url: /
+  - text: <i class="fa fa-github"></i> GitHub
+    url: https://github.com/iwilltry42
+
+# Supporting Files
+css_files:
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
+
+js_files:
+  - /static/js/main.js

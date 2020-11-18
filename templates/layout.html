@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block main %}
+<main class="{{ data.layout or 'one-col' }} {{ data.page }}">
+    <article>
+        {{ node.content }}
+    </article>
+
+    {% if data.layout == 'two-cols' %}
+    <aside>
+        <nav id="secondary-navigation" aria-labelledby="secondary-navigation">
+            {% if data.index_node %}
+                {% with index = get_node(data.index_node) %}
+                    <ul>
+                        {% for section in index.sections %}
+                            <li><a href="#{{ section.id }}">{{ section.name }}</a></li>
+                        {% endfor %}
+                    </ul>
+                {% endwith %}
+            {% endif %}
+            {# {% if data.menu %} #}
+            {#     {% if data.menu.title %} #}
+            {#         <strong>{{ data.menu.title }}</strong> #}
+            {#     {% endif %} #}
+            {#     <ul> #}
+            {#         {% for entry in data.menu.entries %} #}
+            {#         <li> #}
+            {#             <a href="{{ entry.url }}">{{ entry.text }}</a> #}
+            {#         </li> #}
+            {#         {% endfor %} #}
+            {#     </ul> #}
+            {# {% endif %} #}
+        </nav>
+    </aside>
+    {% endif %}
+
+</main>
+{% endblock main %}
