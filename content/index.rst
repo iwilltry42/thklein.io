@@ -9,6 +9,6 @@ css_files:
 
 .. raw:: html
 
-  <img src="/static/img/logo_large.svg">
+  <img src="/static/img/logo/v01.svg">
 
 This site is under construction!
