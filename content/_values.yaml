@@ -3,10 +3,10 @@ author: Thorsten Klein (@iwilltry42)
 title: "@thklein"
 copyright: |-
   Copyright 2020 Thorsten Klein <br>
-  <i class="fa fa-envelope"></i> <a href="mailto:tk@thklein.io">tk@thklein.io</a> |
-  <i class="fa fa-linkedin"></i> <a href="https://www.linkedin.com/in/thorsten-klein-b39520114/">Thorsten Klein</a> |
+  <i class="fa fa-envelope"></i> <a href="mailto:tk@thklein.io">tk@thklein.io</a> | 
+  <i class="fa fa-linkedin"></i> <a href="https://www.linkedin.com/in/thorsten-klein-b39520114/">Thorsten Klein</a> | 
   <i class="fa fa-xing"></i> <a href="https://www.xing.com/profile/Thorsten_Klein141/">Thorsten Klein</a> | 
-  <i class="fa fa-twitter"></i> <a href="https://twitter.com/iwilltry42">@iwilltry42</a> |
+  <i class="fa fa-twitter"></i> <a href="https://twitter.com/iwilltry42">@iwilltry42</a> | 
   <i class="fa fa-github"></i> <a href="https://github.com/iwilltry42">@iwilltry42</a>
   <br>
   Powered by <a href="https://github.com/pacha/spekulatio">spekulatio</a> & <a href="https://www.netlify.com/">netlify</a>
@@ -20,6 +20,8 @@ logo: /static/img/logo/icon_only_xl.png
 main_menu:
   - text: <i class="fa fa-home"></i> Home
     url: /
+  - text: <i class="fa fa-blog"></i> Personal Blog
+    url: https://iwilltry42.dev
   - text: <i class="fa fa-github"></i> GitHub
     url: https://github.com/iwilltry42
 
