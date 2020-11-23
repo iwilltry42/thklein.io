@@ -20,7 +20,7 @@ logo: /static/img/logo/icon_only_xl.png
 main_menu:
   - text: <i class="fa fa-home"></i> Home
     url: /
-  - text: <i class="fa fa-blog"></i> Personal Blog
+  - text: <i class="fa fa-book"></i> Personal Blog
     url: https://iwilltry42.dev
   - text: <i class="fa fa-github"></i> GitHub
     url: https://github.com/iwilltry42
