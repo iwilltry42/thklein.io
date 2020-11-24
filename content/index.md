@@ -10,3 +10,14 @@ css_files:
 ![Logo](/static/img/logo/v01.svg)
 
 This site is under construction!
+
+# Markdown Features
+
+## Code Block
+
+```python
+# Python
+
+def test():
+  some_func()
+```
