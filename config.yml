@@ -2,3 +2,19 @@ baseURL: https://thklein.io/
 languageCode: en-us
 title: thklein.io
 theme: "PaperMod"
+
+params:
+  title: thklein.io
+  description: Thorsten Klein Software Development & Operations
+  author: Thorsten Klein
+
+  defaultTheme: auto
+
+  # assets:
+  #  favicon: 
+
+  socialIcons:
+    - name: twitter
+      url: https://twitter.com/iwilltry42
+    - name: github
+      url: https://github.com/iwilltry42
