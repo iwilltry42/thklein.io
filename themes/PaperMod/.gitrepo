@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/adityatelange/hugo-PaperMod
+	branch = master
+	commit = 17d48ce9bb9be4f462963edfe40d56c412d32c2d
+	parent = fe6fcf959c11b1fcf26dd8ad97678e26aac79f08
+	method = merge
+	cmdver = 0.4.1
