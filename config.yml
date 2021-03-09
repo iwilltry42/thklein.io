@@ -11,9 +11,9 @@ params:
   defaultTheme: auto
 
   assets:
-    favicon: /static/favicons/favicon.ico
-    favicon16x16: /static/favicons/favicon-16x16.png
-    favicon32x32: /static/favicons/favicon-32x32.png
+    favicon: favicons/favicon.ico
+    favicon16x16: favicons/favicon-16x16.png
+    favicon32x32: favicons/favicon-32x32.png
 
   socialIcons:
     - name: twitter
