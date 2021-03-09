@@ -38,8 +38,28 @@ params:
     imageUrl: "logo/logo_only_v01.svg"
     #imageWidth: 2056px
     # imageHeight: 1124px
+    buttons:
+      - name: Portfolio
+        url: "portfolio"
+      - name: Blog
+        url: "blog"
+      - name: Personal Site
+        url: "https://iwilltry42.dev"
 
 markup:
   highlight:
     codeFences: true
     lineNos: true
+
+menu:
+  main:
+    - name: Portfolio
+      url: portfolio
+      pre: <i class="fa fa-picture-o"></i>
+      weight: 1
+    - name: Blog
+      url: blog
+      weight: 2
+    - name: Personal Site
+      url: https://iwilltry42.dev
+      weight: 3
