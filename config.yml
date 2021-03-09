@@ -16,7 +16,30 @@ params:
     favicon32x32: favicons/favicon-32x32.png
 
   socialIcons:
+    - name: email
+      url: mailto:tk@thklein.io
     - name: twitter
       url: https://twitter.com/iwilltry42
     - name: github
       url: https://github.com/iwilltry42
+    - name: linkedin
+      url: https://www.linkedin.com/in/thorsten-klein-b39520114/
+    - name: xing
+      url: https://www.xing.com/profile/Thorsten_Klein141
+
+  profileMode:
+    enabled: true
+    title: Thorsten Klein
+    subtitle: |
+      ### Software Development & Operations
+      ----
+
+      Welcome to the business site of my life, where I help people, teams and companies make the best out of their infrastructure and development workflows.
+    imageUrl: "logo/logo_only_v01.svg"
+    #imageWidth: 2056px
+    # imageHeight: 1124px
+
+markup:
+  highlight:
+    codeFences: true
+    lineNos: true
