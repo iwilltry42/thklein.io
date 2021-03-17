@@ -1,0 +1,17 @@
+name: Lighthouse Audit
+on: [push, pull_request]
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Lighthouse Check
+      uses: jakejarvis/lighthouse-action@master
+      with:
+        url: 'https://thklein.io/'
+        netlify_site: 'thkleinio.netlify.app'
+    - name: Upload results as an artifact
+      uses: actions/upload-artifact@master
+      with:
+        name: report
+        path: './report'
