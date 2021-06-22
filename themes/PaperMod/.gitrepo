@@ -6,7 +6,7 @@
 [subrepo]
 	remote = https://github.com/adityatelange/hugo-PaperMod
 	branch = master
-	commit = 17d48ce9bb9be4f462963edfe40d56c412d32c2d
-	parent = fe6fcf959c11b1fcf26dd8ad97678e26aac79f08
+	commit = fc87fc3a29e8e515dff866159601a734e3ad4a2f
+	parent = 7ca43a2b16c4b11b4f87fc5723c972c8e8277d11
 	method = merge
 	cmdver = 0.4.1
