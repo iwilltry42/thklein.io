@@ -59,11 +59,13 @@ menu:
   main:
     - name: Portfolio
       url: portfolio
-      pre: "<i class='fa fa-picture-o'></i>"
+      pre: '<i class="far fa-address-card"></i> '
       weight: 1
     - name: Blog
       url: blog
+      pre: '<i class="far fa-comment-alt"></i> '
       weight: 2
     - name: Personal Site
       url: https://iwilltry42.dev
+      pre: '<i class="far fa-user"></i> '
       weight: 3
