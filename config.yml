@@ -12,6 +12,14 @@ params:
 
   defaultTheme: auto
 
+  # post settings
+  showReadingTime: true
+  showShareButtons: true
+  showCodeCopyButtons: true
+  showFullTextInRSS: true
+
+  # others
+
   assets:
     favicon: favicons/favicon.ico
     favicon16x16: favicons/favicon-16x16.png
