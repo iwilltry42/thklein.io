@@ -23,7 +23,9 @@ package = "netlify-plugin-checklinks"
   recursive = true
   pretty = true
   skipPatterns = [
-    "public/*",
+    "logo/",
+    "https://www.translate-24h.de",
+    "fontawesome",
   ]
   checkExternal = true
 
