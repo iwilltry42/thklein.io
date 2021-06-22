@@ -65,6 +65,12 @@ markup:
   highlight:
     codeFences: true
     lineNos: true
+  goldmark:
+    parser:
+      attribute:
+        block: true
+    renderer:
+      hardwraps: true
 
 menu:
   main:
@@ -80,3 +86,17 @@ menu:
       url: https://iwilltry42.dev
       pre: '<i class="far fa-user"></i> '
       weight: 3
+
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    disable: true
+  instagram:
+    disable: true
+  twitter:
+    disable: false
+  vimeo:
+    disable: true
+  youtube:
+    disable: true
