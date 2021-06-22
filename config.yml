@@ -10,6 +10,9 @@ params:
   description: Thorsten Klein Software Development & Operations
   author: Thorsten Klein
 
+  label:
+    icon: /logo/logo_only_v01.svg
+
   defaultTheme: auto
 
   # post settings
