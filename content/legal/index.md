@@ -2,6 +2,9 @@
 
 title: "Legal Notice"
 hidemeta: true
+disableConnectButtons: true
+disableCommentButtons: true
+disableShare: true
 ---
 
 Information in accordance with Section 5 TMG

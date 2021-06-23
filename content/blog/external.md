@@ -7,6 +7,8 @@ hideMeta: true
 description: |
   Here you can find some content that I have created outside of this website or before this website even existed.
 weight: 1
+disableConnectButtons: true
+disableCommentButtons: true
 ---
 
 - 16.03.2021 - [**Introduction to k3d: Run K3s in Docker**](https://www.cncf.io/blog/2021/03/16/introduction-to-k3d-run-k3s-in-docker/) (cncf.io)
