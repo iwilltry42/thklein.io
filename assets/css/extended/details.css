@@ -24,3 +24,7 @@ blockquote.bordered {
   border-radius: 4px;
   padding: .5em .5em 0;
 }
+
+.emoji {
+  font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
+}

@@ -4,6 +4,9 @@ title: thklein.io
 theme: "PaperMod"
 
 enableRobotsTXT: true
+enableEmoji: true
+enableInlineShortcodes: true
+ebanleGitInfo: true
 
 params:
   title: thklein.io
@@ -71,6 +74,7 @@ markup:
         block: true
     renderer:
       hardwraps: true
+      unsafe: true
 
 menu:
   main:
