@@ -1,10 +1,10 @@
 {{- $title := .Title }}
 
 <div class="sharebox">
-  <div class="shareboxtitleleft"><strong>Comment  <i class="far fa-comment-alt"></i></strong></div>
+  <div class="shareboxtitleleft"><span><strong class="hide-small">Comment  </strong><i class="far fa-comment-alt" title="Comment"></i></span></div>
   <div class="sharebox-buttons">
       {{- if .Params.comments.twitter}}
-      <a target="_blank" rel="noopener noreferrer" aria-label="comment {{$title | plainify }} on twitter"
+      <a target="_blank" rel="noopener noreferrer" aria-label="comment on '{{$title | plainify }}' on twitter" title="comment on '{{$title | plainify }}' on twitter"
           href="{{.Params.comments.twitter}}">
           <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
               <path
@@ -13,7 +13,7 @@
       </a>
       {{- end }}
       {{- if .Params.comments.linkedin}}
-      <a target="_blank" rel="noopener noreferrer" aria-label="comment {{$title | plainify }} on linkedin"
+      <a target="_blank" rel="noopener noreferrer" aria-label="comment on '{{$title | plainify }}' on linkedin" title="comment on '{{$title | plainify }}' on linkedin"
           href="{{.Params.comments.linkedin}}">
           <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
               <path
@@ -22,7 +22,7 @@
       </a>
       {{- end }}
       {{- if .Params.comments.reddit}}
-      <a target="_blank" rel="noopener noreferrer" aria-label="comment {{$title | plainify }} on reddit"
+      <a target="_blank" rel="noopener noreferrer" aria-label="comment on '{{$title | plainify }}' on reddit" title="comment on '{{$title | plainify }}' on reddit"
           href="{{.Params.comments.reddit}}">
           <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
               <path
@@ -31,7 +31,7 @@
       </a>
       {{- end }}
       {{- if .Params.comments.facebook}}
-      <a target="_blank" rel="noopener noreferrer" aria-label="comment {{$title | plainify }} on facebook"
+      <a target="_blank" rel="noopener noreferrer" aria-label="comment on '{{$title | plainify }}' on facebook" title="comment on '{{$title | plainify }}' on facebook"
           href="{{.Params.comments.facebook}}">
           <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
               <path
@@ -40,7 +40,7 @@
       </a>
       {{- end }}
       {{- if .Params.comments.github}}
-      <a target="_blank" rel="noopener noreferrer" aria-label="comment {{ $title | plainify }} on github"
+      <a target="_blank" rel="noopener noreferrer" aria-label="comment {{ $title | plainify }} on github" title="comment {{ $title | plainify }} on github"
           href="{{.Params.comments.github}}">
           <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
               <path
@@ -49,5 +49,5 @@
       </a>
       {{- end }}
   </div>
-  <div class="shareboxtitleright"><strong><i class="far fa-comment-alt fa-flip-horizontal"></i>  Comment</strong></div>
+  <div class="shareboxtitleright"><span><i class="far fa-comment-alt fa-flip-horizontal" title="Comment"></i><strong class="hide-small">  Comment</strong></span></div>
 </div>
