@@ -14,7 +14,7 @@ params:
   author: Thorsten Klein
 
   label:
-    icon: "/logo/v01_logo_only.svg"
+    icon: "/logo/v01_logo_only_noshadow.svg"
 
   defaultTheme: auto
 
@@ -54,8 +54,8 @@ params:
 
       Welcome to the business site of my life, where I help people, teams and companies to make the best out of their infrastructure and development workflows.
     imageUrl: "/logo/v01_logo_only.svg"
-    #imageWidth: 2056px
-    # imageHeight: 1124px
+    imageWidth: 300px
+    imageHeight: 300px
     buttons:
       - name: Portfolio
         url: "portfolio"
