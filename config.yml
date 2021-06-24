@@ -14,7 +14,7 @@ params:
   author: Thorsten Klein
 
   label:
-    icon: /logo/logo_only_v01.svg
+    icon: "/logo/v01_logo_only.svg"
 
   defaultTheme: auto
 
@@ -27,11 +27,11 @@ params:
   # others
 
   assets:
-    favicon: favicons/favicon.ico
-    favicon16x16: favicons/favicon-16x16.png
-    favicon32x32: favicons/favicon-32x32.png
-    apple_touch_icon: favicons/apple-icon.png
-    safari_pinned_tab: favicons/apple-icon.png
+    favicon: /favicons/favicon.ico
+    favicon16x16: /favicons/favicon-16x16.png
+    favicon32x32: /favicons/favicon-32x32.png
+    apple_touch_icon: /favicons/apple-icon.png
+    safari_pinned_tab: /favicons/apple-icon.png
 
   socialIcons:
     - name: email
@@ -53,7 +53,7 @@ params:
       ----
 
       Welcome to the business site of my life, where I help people, teams and companies to make the best out of their infrastructure and development workflows.
-    imageUrl: "logo/logo_only_v01.svg"
+    imageUrl: "/logo/v01_logo_only.svg"
     #imageWidth: 2056px
     # imageHeight: 1124px
     buttons:
