@@ -101,6 +101,8 @@ privacy:
   twitter:
     disable: false
     enableDNT: true
+    simple: true
+    disableInlineCSS: true
   vimeo:
     disable: true
   youtube:
