@@ -29,6 +29,7 @@ package = "netlify-plugin-checklinks"
     "https://reddit.com/",
     "https://facebook.com",
     "netlify.app",
+    "t.co",
   ]
   checkExternal = true
 
