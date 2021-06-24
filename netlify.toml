@@ -28,6 +28,7 @@ package = "netlify-plugin-checklinks"
     "fontawesome",
     "https://reddit.com/",
     "https://facebook.com",
+    "netlify.app",
   ]
   checkExternal = true
 

@@ -1,0 +1,62 @@
+
+
+.sharebox {
+  border-radius: var(--radius);
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  margin: 14px 0;
+  padding-inline-start: var(--radius);
+  padding-inline-end: var(--radius);
+  display: flex;
+  justify-content: space-between;
+  overflow-x: auto;
+}
+
+.shareboxtitleleft {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;
+}
+
+.shareboxtitleleft strong {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.shareboxtitleright {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;
+}
+
+.shareboxtitleright strong {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.sharebox-buttons {
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;
+}
+
+.sharebox-buttons a {
+  margin-top: 10px;
+}
+
+.sharebox-buttons a:not(:last-of-type) {
+  margin-inline-end: 12px;
+}
+
+.sharebox-buttons a svg {
+  height: 30px;
+  width: 30px;
+  fill: currentColor;
+  transition: transform 0.1s;
+}
+
+.sharebox-buttons svg:active {
+  transform: scale(0.96);
+}

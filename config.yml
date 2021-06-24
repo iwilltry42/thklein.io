@@ -4,6 +4,9 @@ title: thklein.io
 theme: "PaperMod"
 
 enableRobotsTXT: true
+enableEmoji: true
+enableInlineShortcodes: true
+ebanleGitInfo: true
 
 params:
   title: thklein.io
@@ -11,7 +14,7 @@ params:
   author: Thorsten Klein
 
   label:
-    icon: /logo/logo_only_v01.svg
+    icon: "/logo/v01_logo_only_noshadow.svg"
 
   defaultTheme: auto
 
@@ -24,11 +27,11 @@ params:
   # others
 
   assets:
-    favicon: favicons/favicon.ico
-    favicon16x16: favicons/favicon-16x16.png
-    favicon32x32: favicons/favicon-32x32.png
-    apple_touch_icon: favicons/apple-icon.png
-    safari_pinned_tab: favicons/apple-icon.png
+    favicon: /favicons/favicon.ico
+    favicon16x16: /favicons/favicon-16x16.png
+    favicon32x32: /favicons/favicon-32x32.png
+    apple_touch_icon: /favicons/apple-icon.png
+    safari_pinned_tab: /favicons/apple-icon.png
 
   socialIcons:
     - name: email
@@ -50,9 +53,9 @@ params:
       ----
 
       Welcome to the business site of my life, where I help people, teams and companies to make the best out of their infrastructure and development workflows.
-    imageUrl: "logo/logo_only_v01.svg"
-    #imageWidth: 2056px
-    # imageHeight: 1124px
+    imageUrl: "/logo/v01_logo_only.svg"
+    imageWidth: 300px
+    imageHeight: 300px
     buttons:
       - name: Portfolio
         url: "portfolio"
@@ -65,6 +68,13 @@ markup:
   highlight:
     codeFences: true
     lineNos: true
+  goldmark:
+    parser:
+      attribute:
+        block: true
+    renderer:
+      hardwraps: true
+      unsafe: true
 
 menu:
   main:
@@ -80,3 +90,20 @@ menu:
       url: https://iwilltry42.dev
       pre: '<i class="far fa-user"></i> '
       weight: 3
+
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    disable: true
+  instagram:
+    disable: true
+  twitter:
+    disable: false
+    enableDNT: true
+    simple: true
+    disableInlineCSS: true
+  vimeo:
+    disable: true
+  youtube:
+    disable: true
