@@ -32,6 +32,7 @@ package = "netlify-plugin-checklinks"
     "t.co",
     "iwilltry42/k3d-go",
     "https://k3d.io/",
+    "https://twitter.com/"
   ]
   checkExternal = true
 
