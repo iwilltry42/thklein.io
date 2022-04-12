@@ -42,8 +42,6 @@ params:
       url: https://github.com/iwilltry42
     - name: linkedin
       url: https://www.linkedin.com/in/thorsten-klein-b39520114/
-    - name: xing
-      url: https://www.xing.com/profile/Thorsten_Klein141
 
   profileMode:
     enabled: true
