@@ -8,6 +8,92 @@ enableEmoji: true
 enableInlineShortcodes: true
 ebanleGitInfo: true
 
+defaultContentLanguage: en
+languages:
+  en:
+    languageName: English
+    languageAltTitle: English
+    weight: 1
+    menu:
+      main:
+        - name: Portfolio
+          url: portfolio
+          pre: '<i class="far fa-address-card"></i> '
+          weight: 1
+        - name: Blog
+          url: blog
+          pre: '<i class="far fa-comment-alt"></i> '
+          weight: 2
+        - name: Personal Site
+          url: https://iwilltry42.dev
+          pre: '<i class="far fa-user"></i> '
+          weight: 3
+    profileMode:
+      enabled: true
+      title: Thorsten Klein
+      subtitle: |
+        ### Software Development & Operations
+        ----
+
+        Welcome to the business site of my life!
+        I help people, teams and companies to make the best out of their infrastructure and development workflows.
+      imageUrl: "/logo/v01_logo_only.svg"
+      imageWidth: 300px
+      imageHeight: 300px
+      buttons:
+        - name: Portfolio
+          url: "portfolio"
+        - name: Blog
+          url: "blog"
+        - name: Personal Site
+          url: "https://iwilltry42.dev"
+        - name: Sponsor Me on GitHub
+          url: "https://github.com/sponsors/iwilltry42"
+        - name: Buy Me a Coffee
+          url: "https://www.buymeacoffee.com/thklein"
+  de:
+    languageName: ":de:"
+    languageAltTitle: Deutsch
+    weight: 2
+    menu:
+      main:
+        - name: Portfolio
+          url: portfolio
+          pre: '<i class="far fa-address-card"></i> '
+          weight: 1
+        - name: Blog
+          url: blog
+          pre: '<i class="far fa-comment-alt"></i> '
+          weight: 2
+        - name: Private Seite
+          url: https://iwilltry42.dev
+          pre: '<i class="far fa-user"></i> '
+          weight: 3
+    profileMode:
+      enabled: true
+      title: Thorsten Klein
+      subtitle: |
+        ### Software Development & Operations
+        ----
+
+        Willkommen auf meiner Webseite!
+        Ich helfe Personen, Organisationen, Teams und Firmen, das Beste aus ihrer Infrastruktur und ihrer Softwareentwicklung herauszuholen.
+      imageUrl: "/logo/v01_logo_only.svg"
+      imageWidth: 300px
+      imageHeight: 300px
+      buttons:
+        - name: Portfolio
+          url: "portfolio"
+        - name: Blog
+          url: "blog"
+        - name: Private Webseite
+          url: "https://iwilltry42.dev"
+        - name: GitHub Sponsors
+          url: "https://github.com/sponsors/iwilltry42"
+        - name: Buy Me a Coffee
+          url: "https://www.buymeacoffee.com/thklein"
+
+
 params:
   title: thklein.io
   description: Thorsten Klein Software Development & Operations
@@ -45,26 +131,7 @@ params:
 
   profileMode:
     enabled: true
-    title: Thorsten Klein
-    subtitle: |
-      ### Software Development & Operations
-      ----
-
-      Welcome to the business site of my life, where I help people, teams and companies to make the best out of their infrastructure and development workflows.
-    imageUrl: "/logo/v01_logo_only.svg"
-    imageWidth: 300px
-    imageHeight: 300px
-    buttons:
-      - name: Portfolio
-        url: "portfolio"
-      - name: Blog
-        url: "blog"
-      - name: Personal Site
-        url: "https://iwilltry42.dev"
-      - name: Sponsor Me on GitHub
-        url: "https://github.com/sponsors/iwilltry42"
-      - name: Buy Me a Coffee
-        url: "https://www.buymeacoffee.com/thklein"
+    
 
 markup:
   highlight:
@@ -77,21 +144,6 @@ markup:
     renderer:
       hardwraps: true
       unsafe: true
-
-menu:
-  main:
-    - name: Portfolio
-      url: portfolio
-      pre: '<i class="far fa-address-card"></i> '
-      weight: 1
-    - name: Blog
-      url: blog
-      pre: '<i class="far fa-comment-alt"></i> '
-      weight: 2
-    - name: Personal Site
-      url: https://iwilltry42.dev
-      pre: '<i class="far fa-user"></i> '
-      weight: 3
 
 privacy:
   disqus:

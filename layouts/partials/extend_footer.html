@@ -1,17 +1,12 @@
 {{- /* Footer custom content area start */ -}}
 <footer class="footer">
-  <div>
-    <iframe src="https://github.com/sponsors/iwilltry42/card" title="Sponsor iwilltry42" height="225" width="600" style="border: 0;"></iframe>
-  </div>
-  <div>
-    <script src="https://liberapay.com/iwilltry42/widgets/button.js"></script>
-    <noscript><a href="https://liberapay.com/iwilltry42/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
-  </div>
-  <div>
-    <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="thklein" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
-  </div>
-  <div>
-    <a href="/legal">Legal Notice</a>
-  </div>
+  <h1>{{ if eq .Lang "de" }}Hier könnt ihr meine open-source Arbeit unterstützen:{{ else }}Here you can support my open-source work:{{ end }}</h1>
+    <h2>
+      <a href="https://github.com/sponsors/iwilltry42">GitHub Sponsors</a> | <a href="https://liberapay.com/iwilltry42/donate">Liberapay</a> | <a href="http://buymeacoffee.com/thklein">BuyMeACoffee</a>
+    </h2>
+    <br>
+    <div>
+      <a href='{{ if eq .Lang "de" }}/de/impressum{{ else }}/legal{{end}}'>{{ if eq .Lang "de" }}Impressum{{ else }}Legal Notice{{ end }}</a>
+    </div>
 </footer>
 {{- /* Footer custom content area end */ -}}
