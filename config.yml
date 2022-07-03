@@ -47,10 +47,6 @@ languages:
           url: "blog"
         - name: Personal Site
           url: "https://iwilltry42.dev"
-        - name: Sponsor Me on GitHub
-          url: "https://github.com/sponsors/iwilltry42"
-        - name: Buy Me a Coffee
-          url: "https://www.buymeacoffee.com/thklein"
   de:
     languageName: ":de:"
     languageAltTitle: Deutsch
@@ -88,10 +84,6 @@ languages:
           url: "blog"
         - name: Private Webseite
           url: "https://iwilltry42.dev"
-        - name: GitHub Sponsors
-          url: "https://github.com/sponsors/iwilltry42"
-        - name: Buy Me a Coffee
-          url: "https://www.buymeacoffee.com/thklein"
 
 
 params:
