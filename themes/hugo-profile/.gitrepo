@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github.com:gurusabarish/hugo-profile.git
+	branch = master
+	commit = db70a4b3881d981ec098b852e9827ae4ed15c49b
+	parent = 9213a15a1a56369be91b0350b5a51302c263154e
+	method = merge
+	cmdver = 0.4.3

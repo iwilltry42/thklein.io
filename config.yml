@@ -1,7 +1,7 @@
 baseURL: https://thklein.io/
 languageCode: en-us
 title: thklein.io
-theme: "PaperMod"
+theme: "hugo-profile"
 
 enableRobotsTXT: true
 enableEmoji: true
@@ -9,82 +9,24 @@ enableInlineShortcodes: true
 ebanleGitInfo: true
 
 defaultContentLanguage: en
+
 languages:
   en:
-    languageName: English
-    languageAltTitle: English
-    weight: 1
     menu:
       main:
-        - name: Portfolio
-          url: portfolio
-          pre: '<i class="far fa-address-card"></i> '
+        - identifier: blog
+          name: Blog
+          title: Blog Posts
+          url: /blogsen
           weight: 1
-        - name: Blog
-          url: blog
-          pre: '<i class="far fa-comment-alt"></i> '
-          weight: 2
-        - name: Personal Site
-          url: https://iwilltry42.dev
-          pre: '<i class="far fa-user"></i> '
-          weight: 3
-    profileMode:
-      enabled: true
-      title: Thorsten Klein
-      subtitle: |
-        ### Software Development & Operations
-        ----
-
-        Welcome to the business site of my life!
-        I help people, teams and companies to make the best out of their infrastructure and development workflows.
-      imageUrl: "/logo/v01_logo_only.svg"
-      imageWidth: 300px
-      imageHeight: 300px
-      buttons:
-        - name: Portfolio
-          url: "portfolio"
-        - name: Blog
-          url: "blog"
-        - name: Personal Site
-          url: "https://iwilltry42.dev"
   de:
-    languageName: ":de:"
-    languageAltTitle: Deutsch
-    weight: 2
     menu:
       main:
-        - name: Portfolio
-          url: portfolio
-          pre: '<i class="far fa-address-card"></i> '
+        - identifier: blog
+          name: Artikel
+          title: Blog Artikel
+          url: /blogs
           weight: 1
-        - name: Blog
-          url: blog
-          pre: '<i class="far fa-comment-alt"></i> '
-          weight: 2
-        - name: Private Seite
-          url: https://iwilltry42.dev
-          pre: '<i class="far fa-user"></i> '
-          weight: 3
-    profileMode:
-      enabled: true
-      title: Thorsten Klein
-      subtitle: |
-        ### Software Development & Operations
-        ----
-
-        Willkommen auf meiner Webseite!
-        Ich helfe Personen, Organisationen, Teams und Firmen, das Beste aus ihrer Infrastruktur und ihrer Softwareentwicklung herauszuholen.
-      imageUrl: "/logo/v01_logo_only.svg"
-      imageWidth: 300px
-      imageHeight: 300px
-      buttons:
-        - name: Portfolio
-          url: "portfolio"
-        - name: Blog
-          url: "blog"
-        - name: Private Webseite
-          url: "https://iwilltry42.dev"
-
 
 params:
   title: thklein.io
@@ -94,7 +36,12 @@ params:
   label:
     icon: "/logo/v01_logo_only_noshadow.svg"
 
+  favicon: /favicons/favicon.ico
+
   defaultTheme: auto
+  theme:
+    disableThemeToggle: false
+    # defaultTheme: "light" # dark
 
   # post settings
   showReadingTime: true
@@ -102,28 +49,161 @@ params:
   showCodeCopyButtons: true
   showFullTextInRSS: true
 
-  # others
+  ###############################
+  # Hugo Project Theme Settings #
+  # vvvvvvvvvvvvvvvvvvvvvvvvvvv #
 
-  assets:
-    favicon: /favicons/favicon.ico
-    favicon16x16: /favicons/favicon-16x16.png
-    favicon32x32: /favicons/favicon-32x32.png
-    apple_touch_icon: /favicons/apple-icon.png
-    safari_pinned_tab: /favicons/apple-icon.png
+  # font:
+  #   fontSize: 1.5rem # default: 1rem
+  #   fontWeight: 500 # default: 400
+  #   lineHeight: 1 # default: 1.5
+  #   textAlign: right # default: left
 
-  socialIcons:
-    - name: email
-      url: mailto:tk@thklein.io
-    - name: twitter
-      url: https://twitter.com/iwilltry42
-    - name: github
-      url: https://github.com/iwilltry42
-    - name: linkedin
-      url: https://www.linkedin.com/in/thorsten-klein-b39520114/
+  # color preference
+  # color:
+  #   textColor:
+  #   secondaryTextColor:
+  #   backgroundColor:
+  #   secondaryBackgroundColor:
+  #   primaryColor:
+  #   secondaryColor:
 
-  profileMode:
-    enabled: true
-    
+  #   darkmode:
+  #     textColor:
+  #     secondaryTextColor:
+  #     backgroundColor:
+  #     secondaryBackgroundColor:
+  #     primaryColor:
+  #     secondaryColor:
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+  #   align: mx-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    brandLogo: "/logo/v01_logo_only_noshadow.svg" # Logo for the brand | default is the favicon variable
+  #   brandName: "Profile" # Brand name for the brand | default is the title variable
+
+  #   menus:
+  #     disableAbout: true
+  #     disableExperience: true
+  #     disableEducation: true
+  #     disableProjects: true
+  #     disableAchievements: true
+  #     disableContact: true
+
+  hero:
+    enable: true
+    intro: Hi, my name is
+    title: Thorsten.
+    subtitle: I help merge the worlds of Dev and Ops.
+    content: |-
+      A passionate backend developer and DevOps enabler with a passion for open-source software.  
+      I help people, teams and organizations to automate and modernize their workflows to achieve maximum performance and convenience.  
+      Need the infrastructure for this first? I can also help creating it, be it on-premises, bare-metal, public, private or hybrid cloud.
+    image: /logo/v01_logo_only_noshadow.svg
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/iwilltry42
+        - icon: fab fa-twitter
+          url: https://twitter.com/IWillTry42
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/thorsten-klein-b39520114
+
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/me.png"
+    content: |-
+      I'm a software developer and DevOps enabler with a passion for open-source software.  
+      I started my career in a corporate environment during my computer science studies.  
+      After a while I got to work with other companies through my open-source project which led me start freelancing.  
+      It's exciting to work with a diverse set of people, companies and organizations.  
+      Simplifying workflows and automating the boring stuff is one of the key drivers in my work.  
+
+      -
+    skills:
+      enable: true
+      title: "Here's an excerpt of technologies I've worked with so far:"
+      items:
+        - Golang
+        - Python
+        - Bash
+        - Kubernetes
+        - Public Cloud
+        - Private Cloud
+        - Linux
+        - HCI
+
+  experience:
+    enable: true
+    items:
+      - job: DevOps Engineer
+        company: trivago
+        companyUrl: https://trivago.com
+        date: Mar 2018 - Nov 2021
+        featuredLink:
+          enable: true
+          name: Tech Blog Article
+          url: https://example.com
+        info:
+          enable: true
+          content: Full-Time Employee, switched to part-time in early 2021 to build my business
+        content: |-
+          todo
+      - job: Software Developer
+        company: SUSE Rancher
+        companyUrl: https://suse.com
+        date: Apr 2020 - Feb 2022
+        featuredLink:
+          enable: true
+          name: Backstory
+          url: "TODO:"
+        info:
+          enable: true
+          content: Freelancer
+        content: |-
+          todo
+
+  education:
+    enable: true
+    items:
+      - title: "Bachelor of Science"
+      - title: Abi
+
+  projects:
+    enable: true
+    items:
+      - title: k3d
+        content: foobar
+        image: /images/projects/k3d_logo_black_blue.svg
+        featured:
+          name: Website
+          link: https://k3d.io
+        badges:
+          - Go
+          - Kubernetes
+          - Docker
+        links:
+          - icon: fab fa-github
+            url: https://github.com/k3d-io/k3d
+
+  contact:
+    enable: true
+    content: |-
+      I'm always up for a quick chat or a lengthy discussion or knowledge exchange.  
+      Get in touch via social media, or e-mail.
+    email: tk@thklein.io
+    btnName: Send me an E-Mail
+
+  footer:
+    recentPosts: false
+    socialNetworks:
+      github: https://github.com/iwilltry42
+      linkedin: https://www.linkedin.com/in/thorsten-klein-b39520114
+      twitter: https://twitter.com/IWillTry42
+  # ^^^^^^^^^^^^^^^^^^^^^^^^^^^ #
+  # Hugo Project Theme Settings #
+  ###############################
 
 markup:
   highlight:
