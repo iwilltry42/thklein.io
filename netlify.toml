@@ -1,0 +1,42 @@
+[build]
+publish = "public"
+command = "hugo --gc --minify"
+
+[context.production.environment]
+HUGO_VERSION = "0.101.0"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
+
+[context.deploy-preview]
+command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+
+[context.deploy-preview.environment]
+HUGO_VERSION = "0.101.0"
+
+[[plugins]]
+package = "netlify-plugin-checklinks"
+
+  [plugins.inputs]
+  entryPoints = [
+    "*.html",
+  ]
+  recursive = true
+  pretty = true
+  skipPatterns = [
+    "logo/",
+    "https://www.translate-24h.de",
+    "fontawesome",
+    "https://reddit.com/",
+    "https://facebook.com",
+    "netlify.app",
+    "t.co",
+    "iwilltry42/k3d-go",
+    "https://k3d.io/",
+    "https://twitter.com/",
+    "github.com",
+  ]
+  checkExternal = true
+
+
+[[plugins]]
+package = "@netlify/plugin-sitemap"
