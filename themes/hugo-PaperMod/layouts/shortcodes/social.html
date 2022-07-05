@@ -1,0 +1,6 @@
+{{- $icon := dict "name" (.Get "icon") -}}
+<div class="social-icons">
+  <a href='{{ .Get "link" }}' target="_blank" rel="noopener noreferrer me" {{ if (.Get "description") }}title='{{ .Get "description" }}'{{end}}>
+    {{ partial "svg.html" $icon }}{{if .Inner}}{{.Inner}}{{end}}
+  </a>
+</div>
