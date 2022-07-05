@@ -48,6 +48,15 @@
     {{- if (and site.Params.ShowShareButtons (ne .Params.disableShare true)) }}
     {{- partial "share_icons.html" . -}}
     {{- end }}
+    
+    {{- if (ne .Params.disableCommentButtons true) }}
+    {{- partial "comment_buttons.html" . -}}
+    {{- end }}
+
+    {{- if (ne .Params.disableConnectButtons true) }}
+    {{- partial "connect_buttons.html" . -}}
+    {{- end }}
+    
   </footer>
 
   {{- if (.Param "comments") }}
