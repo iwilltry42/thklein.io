@@ -1,0 +1,18 @@
+{{- /* Expandable/Collapsible Summary Block */ -}}
+
+{{- /*
+  Valdiate Input
+*/ -}}
+{{- if not ( .Get "summary" ) }}
+{{ warnf "missing value for param 'summary': %s" .Position }}
+{{- end }}
+
+{{- /*
+  Actual HTML Template
+*/ -}}
+<p>
+  <details {{ if (.Get "bordered") }}class="bordered"{{end}} {{ if (.Get "expanded") }} open=true {{ end }}>
+  <summary {{ if (.Get "bordered") }}class="bordered"{{end}} markdown="span">{{ .Get "summary" | markdownify }}</summary>
+    {{ .Inner | markdownify }}
+  </details>
+</p>
