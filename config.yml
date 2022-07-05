@@ -1,7 +1,7 @@
 baseURL: https://thklein.io/
 languageCode: en-us
 title: thklein.io
-theme: "PaperMod"
+theme: "hugo-PaperMod"
 
 enableRobotsTXT: true
 enableEmoji: true
