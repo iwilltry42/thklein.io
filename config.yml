@@ -177,9 +177,16 @@ outputs:
 
 markup:
   defaultMarkdownHandler: goldmark
+  highlight:
+    codeFences: true
+    lineNos: true
   goldmark:
+    parser:
+      attribute:
+        block: true
     renderer:
-      unsafe: false # Change to 'true' if you need to render raw HTML within your markdown content
+      hardwraps: true
+      unsafe: true
   tableOfContents:
     endLevel: 5
     ordered: false
