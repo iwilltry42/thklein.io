@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github.com:iwilltry42/bilberry-hugo-theme.git
+	branch = master
+	commit = 69d39da08ce3573dbc0675378f2da1eab57422d2
+	parent = ec5f1b0313e179a1f2bb689c8f3a34b330f3ff1c
+	method = merge
+	cmdver = 0.4.3
