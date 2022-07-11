@@ -1,4 +1,4 @@
-title: thklein.io
+title: Thorsten Klein
 baseURL: https://thklein.io/
 languageCode: en-us
 theme: "iwilltry42-bilberry"
@@ -158,7 +158,7 @@ languages:
     weight: 1
   de:
     weight: 2
-    title: Mein Blog
+    title: Thorsten Klein
     subtitle: Softwareentwicklung & -betrieb
 
 # don't change anything below
