@@ -6,7 +6,7 @@
 [subrepo]
 	remote = git@github.com:iwilltry42/hugo-PaperMod.git
 	branch = main
-	commit = ae38aa14095874082d3048c3033d68d8b8288ba7
-	parent = e9ab59c8437c9206b7f6ea314d6deccd359d3131
+	commit = b52e9a61ae3d22e4824b31b1d7bf326f130fdd58
+	parent = febc12d20e9d4df352b455bb2dd72911bdade6bc
 	method = merge
 	cmdver = 0.4.3
