@@ -10,8 +10,8 @@ disableShare: true
 Information in accordance with Section 5 TMG
 
 Thorsten Klein  
-Im Gansdahl 23  
-41540 Dormagen
+Schwiddenhofstr. 20
+41542 Dormagen
 
 ## Contact Information
 

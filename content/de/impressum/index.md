@@ -10,12 +10,12 @@ disableShare: true
 Informationen nach §5 TMG
 
 Thorsten Klein  
-Im Gansdahl 23  
-41540 Dormagen
+Schwiddenhofstr. 20
+41542 Dormagen
 
 ## Kontakt
 
-E-Mail: tk@thklein.io  
+E-Mail: <tk@thklein.io>  
 Webseite: <https://thklein.io>  
 
 ## Steuer Identifikationsnummer
